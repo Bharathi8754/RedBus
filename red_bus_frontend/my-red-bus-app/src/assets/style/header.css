@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&family=Monsieur+La+Doulaise&display=swap');
+
 @media (min-width: 900px) {
     .css-1t6c9ts {
         justify-content: flex-end !important;
@@ -35,5 +37,8 @@
 }
 
 .css-ptdwpq-MuiPaper-root-MuiAppBar-root{
-    --AppBar-background: #c34a51 !important;
+    background-color: #c34a51 !important;
+}
+.logo_name{
+    font-family: "Henny Penny", system-ui !important;
 }

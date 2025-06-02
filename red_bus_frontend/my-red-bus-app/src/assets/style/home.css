@@ -265,6 +265,9 @@
     padding: 30px 10px !important;
     width: 100% !important;
 }
+.search_input{
+      height: 50px !important;
+}
 }
 
 

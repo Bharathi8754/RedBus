@@ -42,12 +42,13 @@ function HomeNavBar() {
     <AppBar position="static">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <AirportShuttleIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
+          {/* <AirportShuttleIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} /> */}
           <Typography
             variant="h6"
             noWrap
             component="a"
             href="/"
+            className='logo_name'
             sx={{
               mr: 2,
               display: { xs: 'none', md: 'flex' },
@@ -95,12 +96,13 @@ function HomeNavBar() {
               ))}
             </Menu>
           </Box>
-          <AirportShuttleIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
+          {/* <AirportShuttleIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} /> */}
           <Typography
             variant="h5"
             noWrap
             component="a"
             href="#app-bar-with-responsive-menu"
+            className='logo_name'
             sx={{
               mr: 2,
               display: { xs: 'flex', md: 'none' },
