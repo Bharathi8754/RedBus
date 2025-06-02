@@ -1,0 +1,72 @@
+.container{
+    padding: 30px;
+}
+.card{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0px;
+}
+.card .bus-name{
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-size: 22px;
+}
+.card p{
+    color: darkslategray;
+}
+.card .seats{
+    display: flex;
+    align-items: center;
+}
+.card .start-to-end-point{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card .start-point,
+.card .start-point{
+    text-transform: capitalize;
+}
+.card .start-to-end-point img{
+    width: 50px;
+}
+.card .departure-time,
+.card .arrival-time{
+    margin: 5px 0px;
+}
+.card .ticket-price{
+    margin: 10px 0px;
+}
+.card .ticket-price span{
+    color: orangered;
+    letter-spacing: 1px;
+}
+.card .action-btn{
+    margin: 20px 0px 10px 0px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+.skeleton_con{
+    margin: 5px 0px;
+}
+
+.btn-success{
+    padding: 10px;
+    background: green;
+    border: none;
+    border-radius: 5px;
+    margin: 0px 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btn-danger{
+    padding: 10px;
+    background: red;
+    border: none;
+    border-radius: 5px;
+    margin: 0px 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
