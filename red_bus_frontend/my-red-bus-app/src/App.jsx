@@ -7,7 +7,7 @@ import CreateBus from './components/admin/CreateBus'
 import EditBus from './components/admin/EditBus'
 import Index from './components/home/Index'
 import AdminNavLayout from './components/layout/AdminNavLayout'
-import HomeNabLayout from './components/layout/homeNabLayout'
+import HomeNabLayout from './components/layout/HomeNabLayout'
 import Booking from './components/home/Booking'
 import BookingSuccess from './components/home/BookingSuccess'
 function App() {
